@@ -4,7 +4,8 @@ public class Cards {
 	private int value = 0;
 	private String name = "";
 	
-	public Cards(); {
+	public Cards() {
+	} {
 		value = 0;
 		name = "";
 	}
@@ -22,6 +23,11 @@ public class Cards {
 	}
 	public void setName(String name) {
 		this.name = name;
+	}
+	
+	public void describe() {
+		// TODO Auto-generated method stub
+		
 	}
 	
 	
